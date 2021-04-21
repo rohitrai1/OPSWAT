@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b143ca2b-cf44-4b69-b67e-0c64ceec2e49" name="Default" comment="" />
+    <list default="true" id="b143ca2b-cf44-4b69-b67e-0c64ceec2e49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Opswat.java" afterPath="$PROJECT_DIR$/src/Opswat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OpswatTest.java" afterPath="$PROJECT_DIR$/src/OpswatTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StatusFamily.java" afterPath="$PROJECT_DIR$/src/StatusFamily.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,35 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Opswat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Opswat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Opswat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="334">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2529#2530#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusFamily.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpswatTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpswatTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="382">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +67,9 @@
       <find>34790cc8816ec3556cd56fc76dc45546</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -92,12 +89,13 @@
         <option value="$PROJECT_DIR$/src/key.xml" />
         <option value="$PROJECT_DIR$/key.xml" />
         <option value="$PROJECT_DIR$/key.txt" />
-        <option value="$PROJECT_DIR$/src/OpswatTest.java" />
         <option value="$PROJECT_DIR$/src/StatusFamily.java" />
         <option value="$PROJECT_DIR$/src/Opswat.java" />
+        <option value="$PROJECT_DIR$/src/OpswatTest.java" />
       </list>
     </option>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -308,34 +306,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 43m 34s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 51m 53s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 44m 16s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 52m 37s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 44m 32s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 53m 29s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 44m 41s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 53m 40s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 44m 51s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 53m 55s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 45m 24s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 54m 20s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 45m 42s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 55m 43s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 48m 02s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 56m 29s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 51m 04s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 56m 42s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 17h 52m 47s.xml">
+    <history-entry file="OpswatTest - 2021.04.21 at 18h 57m 28s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -345,14 +343,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -380,6 +378,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Opswat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2529#2530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/key.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -390,30 +408,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="382">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Opswat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
           </folding>
         </state>
       </provider>

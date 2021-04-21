@@ -1,6 +1,6 @@
 public class StatusFamily {
     public static String checkAPIResponse(int statusCode) {
-        if (statusCode >= 200 && statusCode < 200) {
+        if (statusCode >= 200 && statusCode < 300) {
             return "SUCCESS";
         } else if (statusCode >= 400 && statusCode < 500) {
             return "CLIENT_ERROR";
