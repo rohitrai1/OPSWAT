@@ -26,6 +26,19 @@ class OpswatTest {
      @Test
     void getReportDataHashTest() throws IOException, NoSuchAlgorithmException {
          Opswat op = new Opswat();
-         assertEquals(null, op.getReportDataHash("ex.txt"));
+         assertEquals(null, op.getCachedReport("ex.txt"));
+     }
+
+     @Test
+     void getNonCachedReportTest () throws IOException {
+          Opswat op = new Opswat();
+          assertNotEquals(null, op.getNonCachedReport("1.bin"));
+     }
+
+
+     @Test
+     void getReportWrapperTest () throws IOException, NoSuchAlgorithmException, InterruptedException {
+          Opswat op = new Opswat();
+          assertNotEquals(null, op.getReportWrapper("derp"));;
      }
 }
