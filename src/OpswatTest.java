@@ -26,7 +26,6 @@ class OpswatTest {
      @Test
     void getReportDataHashTest() throws IOException, NoSuchAlgorithmException {
          Opswat op = new Opswat();
-         JSONObject obj = op.getReportDataHash("ex.txt");
-         System.out.println(obj);
+         assertEquals(null, op.getReportDataHash("ex.txt"));
      }
 }

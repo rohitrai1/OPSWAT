@@ -72,16 +72,18 @@ public class Opswat {
         http.setRequestMethod("GET");
         http.setRequestProperty("apikey", "34790cc8816ec3556cd56fc76dc45546");
         http.setRequestProperty("hash", "34790cc8816ec3556cd56fc76dc45546");
-        System.out.println(http.getResponseCode());
+        int statusCode = http.getResponseCode();
+        if (!"SUCCESS".equals(StatusFamily.checkAPIResponse(statusCode))) {
+            return null;
+        }
         String jsonString = "";
         Scanner scanner = new Scanner(http.getInputStream());
         while (scanner.hasNext()) {
             jsonString += scanner.nextLine();
         }
         scanner.close();
-
-        JSONObject obj = new JSONObject(jsonString);;
-        return obj;
+        JSONObject jsonObject = new JSONObject(jsonString);
+        return jsonObject;
     }
 
     public static void main(String [] args) {

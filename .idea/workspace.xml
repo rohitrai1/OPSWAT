@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b143ca2b-cf44-4b69-b67e-0c64ceec2e49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OPSWAT_/Opswat.class" afterPath="$PROJECT_DIR$/out/production/OPSWAT_/Opswat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OPSWAT_/OpswatTest.class" afterPath="$PROJECT_DIR$/out/production/OPSWAT_/OpswatTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OPSWAT_.iml" afterPath="$PROJECT_DIR$/OPSWAT_.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Opswat.java" afterPath="$PROJECT_DIR$/src/Opswat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OpswatTest.java" afterPath="$PROJECT_DIR$/src/OpswatTest.java" />
     </list>
@@ -22,12 +19,12 @@
       <file leaf-file-name="Opswat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Opswat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="22" />
+            <state relative-caret-position="418">
+              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3367#3368#0" expanded="true" />
-                <element signature="e#3405#3406#0" expanded="true" />
+                <element signature="e#3487#3488#0" expanded="true" />
+                <element signature="e#3525#3526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +33,8 @@
       <file leaf-file-name="OpswatTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="358">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +90,8 @@
         <option value="$PROJECT_DIR$/key.xml" />
         <option value="$PROJECT_DIR$/key.txt" />
         <option value="$PROJECT_DIR$/src/StatusFamily.java" />
-        <option value="$PROJECT_DIR$/src/Opswat.java" />
         <option value="$PROJECT_DIR$/src/OpswatTest.java" />
+        <option value="$PROJECT_DIR$/src/Opswat.java" />
       </list>
     </option>
   </component>
@@ -311,12 +308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpswatTest - 2021.04.21 at 19h 47m 18s.xml">
-      <configuration name="OpswatTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpswatTest - 2021.04.21 at 19h 47m 39s.xml">
-      <configuration name="OpswatTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OpswatTest - 2021.04.21 at 19h 48m 11s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
@@ -341,6 +332,12 @@
     <history-entry file="OpswatTest - 2021.04.21 at 20h 48m 42s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OpswatTest - 2021.04.21 at 22h 06m 45s.xml">
+      <configuration name="OpswatTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpswatTest - 2021.04.21 at 22h 08m 15s.xml">
+      <configuration name="OpswatTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-8" width="1849" height="1089" extended-state="6" />
@@ -354,7 +351,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -401,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="358">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -411,12 +408,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Opswat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3367#3368#0" expanded="true" />
-            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3487#3488#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
           </folding>
         </state>
       </provider>
