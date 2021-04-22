@@ -1,5 +1,4 @@
-import com.sun.deploy.net.HttpResponse;
-import jdk.nashorn.internal.parser.JSONParser;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import javax.xml.bind.DatatypeConverter;
@@ -8,9 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Iterator;
 import java.util.Scanner;
 import java.net.*;
-import java.util.*;
 
 public class Opswat {
     //Get the API key from the key configuration file
@@ -59,6 +58,7 @@ public class Opswat {
             System.out.println("exception");
         }
         int status = http.getResponseCode();
+        System.out.println(status);
         if ("SUCCESS".equals(StatusFamily.checkAPIResponse(status)))  {
             return true;
         }
@@ -174,8 +174,31 @@ public class Opswat {
 
             Thread.sleep(5000);
         }
-        System.out.println(jsonReport);
+        opswatParserAndPrint(jsonReport);
         return jsonReport;
+    }
+
+    public void opswatParserAndPrint (JSONObject json) {
+        String fileName = (String) json.getJSONObject("file_info").get("display_name");
+        JSONObject scanResults = json.getJSONObject("scan_results");
+        String overAllStatus = (String) scanResults.get("scan_all_result_a");
+        JSONObject scanDetails = scanResults.getJSONObject("scan_details");
+
+        Iterator itr = scanDetails.keys();
+        System.out.println("filename: " + fileName);
+        System.out.println("thread_found: " + overAllStatus);
+        while (itr.hasNext()) {
+            String engine = (String) itr.next();
+            JSONObject engineResult = scanDetails.getJSONObject(engine);
+            int scanResult = (int) engineResult.get("scan_result_i");
+            String threat = (String) engineResult.get("threat_found");
+            String dateTime = (String )engineResult.get("def_time");
+            System.out.println("engine: " + engine);
+            System.out.println("threat_found: " + threat);
+            System.out.println("scan_result: " + scanResult);
+            System.out.println("def_time: " + dateTime);
+            System.out.println("END");
+        }
     }
 
     public static void main(String [] args) {

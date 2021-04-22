@@ -8,14 +8,14 @@ import java.security.NoSuchAlgorithmException;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OpswatTest {
-      @Test
+//      @Test
     void checkAuthenticateTest() throws IOException {
         Opswat op = new Opswat();
         assertEquals(true, op.checkAuthentication("1.bin"));
         assertEquals(true, op.checkAuthentication("0.exe"));
     }
 
-    @Test
+//    @Test
     void checkHashFunction() throws IOException, NoSuchAlgorithmException {
         Opswat op = new Opswat();
         assertEquals("93347F7A9E84ED69E86BFABCAC3CA256", op.generateHashMd5("1.bin"));
@@ -23,13 +23,13 @@ class OpswatTest {
         assertEquals("3D925E51522D1A7F5DEE216C76A9F23C", op.generateHashMd5("ex.txt"));
     }
 
-     @Test
+//     @Test
     void getReportDataHashTest() throws IOException, NoSuchAlgorithmException {
          Opswat op = new Opswat();
          assertEquals(null, op.getCachedReport("ex.txt"));
      }
 
-     @Test
+//     @Test
      void getNonCachedReportTest () throws IOException {
           Opswat op = new Opswat();
           assertNotEquals(null, op.getNonCachedReport("1.bin"));
@@ -39,6 +39,6 @@ class OpswatTest {
      @Test
      void getReportWrapperTest () throws IOException, NoSuchAlgorithmException, InterruptedException {
           Opswat op = new Opswat();
-          assertNotEquals(null, op.getReportWrapper("derp"));;
+          assertNotEquals(null, op.getReportWrapper("1.bin"));;
      }
 }
