@@ -12,7 +12,7 @@
 	- contains malware samples that I used for testing
 	- you can also use it to test if you'd like
 - tests
-	-I have added JUnit tests for each request, however, additional jar is needed to run on your local machine the results of the tests are shown below
+	- I have added JUnit tests for each request, however, additional jar is needed to run on your local machine the results of the tests are shown below
 
 **How to run instructions:**
 - I have added a make file to easy out the compilation process

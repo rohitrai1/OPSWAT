@@ -6,6 +6,8 @@ import java.security.NoSuchAlgorithmException;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OpswatTest {
+    // unit tests for all requests and utility functions
+    // kept the teset names descriptive to explain what request is tested within them
     @Test
     void checkHashFunction() throws IOException, NoSuchAlgorithmException {
         assertEquals("2A9D0D06D292A4CBBE4A95DA4650ED54", Utility.generateHashMd5("./malware_samples/0.exe"));
@@ -36,6 +38,6 @@ class OpswatTest {
      @Test
      void getReportWrapperTest () throws IOException, NoSuchAlgorithmException, InterruptedException {
           Opswat op = new Opswat();
-          assertNotEquals(null, op.getReportWrapper("./malware_samples/Android.PegasusB/Android.PegasusB.zip"));;
+          assertNotEquals(null, op.getReportWrapper("./malware_samples/Android.PegasusB/Android.PegasusB.zip"));
      }
 }
