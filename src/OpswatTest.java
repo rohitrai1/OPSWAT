@@ -8,15 +8,15 @@ import static org.junit.jupiter.api.Assertions.*;
 class OpswatTest {
     @Test
     void checkHashFunction() throws IOException, NoSuchAlgorithmException {
-        assertEquals("2A9D0D06D292A4CBBE4A95DA4650ED54", Utility.generateHashMd5("./malware samples/0.exe"));
-        assertEquals("2A9D0D06D292A4CBBE4A95DA4650ED54", Utility.generateHashMd5("./malware samples/0.exe"));
-        assertEquals("3D925E51522D1A7F5DEE216C76A9F23C", Utility.generateHashMd5("./malware samples/ex.txt"));
+        assertEquals("2A9D0D06D292A4CBBE4A95DA4650ED54", Utility.generateHashMd5("./malware_samples/0.exe"));
+        assertEquals("2A9D0D06D292A4CBBE4A95DA4650ED54", Utility.generateHashMd5("./malware_samples/0.exe"));
+        assertEquals("3D925E51522D1A7F5DEE216C76A9F23C", Utility.generateHashMd5("./malware_samples/ex.txt"));
     }
 
      @Test
     void getReportDataHashTest() throws IOException, NoSuchAlgorithmException {
          Opswat op = new Opswat();
-         assertEquals(null, op.getCachedReport("./malware samples/ex.txt"));
+         assertEquals(null, op.getCachedReport("./malware_samples/ex.txt"));
      }
 
      @Test
@@ -29,7 +29,7 @@ class OpswatTest {
      @Test
      void getNonCachedReportTest () throws IOException {
           Opswat op = new Opswat();
-          assertNotEquals(null, op.getNonCachedReport("./malware samples/1.bin"));
+          assertNotEquals(null, op.getNonCachedReport("./malware_samples/1.bin"));
      }
 
 
