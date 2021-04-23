@@ -12,7 +12,7 @@ public class Utility {
     public static String getAPIKey(){
         String data = "";
         try {
-            File keyFile = new File("key.txt");
+            File keyFile = new File("/home/rohit/OPSWAT_/key.txt");
             Scanner myReader = new Scanner(keyFile);
             while (myReader.hasNextLine()) {
                 data = myReader.nextLine();

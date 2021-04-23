@@ -171,6 +171,10 @@ public class Opswat {
         }
     }
 
-    public static void main(String [] args) {
+    public static void main(String [] args) throws InterruptedException, NoSuchAlgorithmException, IOException {
+        String fileLocation = args[0];
+        System.out.println(fileLocation);
+        Opswat obj = new Opswat();
+        obj.getReportWrapper(fileLocation);
     }
 }
