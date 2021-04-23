@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b143ca2b-cf44-4b69-b67e-0c64ceec2e49" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OPSWAT_/Opswat.class" afterPath="$PROJECT_DIR$/out/production/OPSWAT_/Opswat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OPSWAT_/OpswatTest.class" afterPath="$PROJECT_DIR$/out/production/OPSWAT_/OpswatTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/key.txt" afterPath="$PROJECT_DIR$/key.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makefile" afterPath="$PROJECT_DIR$/makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Opswat.java" afterPath="$PROJECT_DIR$/src/Opswat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OpswatTest.java" afterPath="$PROJECT_DIR$/src/OpswatTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StatusFamily.java" afterPath="$PROJECT_DIR$/src/StatusFamily.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utility.java" afterPath="$PROJECT_DIR$/src/Utility.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +21,8 @@
       <file leaf-file-name="Opswat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Opswat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="176" column="42" lean-forward="true" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
+            <state relative-caret-position="-2856">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatusFamily.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="312">
+              <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,19 +55,21 @@
       <file leaf-file-name="key.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/key.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpswatTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpswatTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-542">
-              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="923">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +91,10 @@
       <find>checkAuthentication</find>
       <find>34790cc8816ec3556cd56fc76dc45546</find>
       <find>Utility.getKey</find>
+      <find>inputStream</find>
+      <find>osos</find>
+      <find>getNonCachedReport</find>
+      <find>getCachedReportgetCachedReport</find>
     </findStrings>
     <replaceStrings>
       <replace>Utility.getAPIKey</replace>
@@ -111,11 +121,11 @@
         <option value="$PROJECT_DIR$/src/config-key.xml" />
         <option value="$PROJECT_DIR$/src/key.xml" />
         <option value="$PROJECT_DIR$/key.xml" />
-        <option value="$PROJECT_DIR$/src/StatusFamily.java" />
         <option value="$PROJECT_DIR$/key.txt" />
-        <option value="$PROJECT_DIR$/src/OpswatTest.java" />
         <option value="$PROJECT_DIR$/src/Opswat.java" />
+        <option value="$PROJECT_DIR$/src/StatusFamily.java" />
         <option value="$PROJECT_DIR$/src/Utility.java" />
+        <option value="$PROJECT_DIR$/src/OpswatTest.java" />
       </list>
     </option>
   </component>
@@ -332,34 +342,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 38m 34s.xml">
+    <history-entry file="OpswatTest - 2021.04.22 at 22h 01m 43s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 39m 43s.xml">
+    <history-entry file="OpswatTest - 2021.04.22 at 22h 02m 36s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 39m 53s.xml">
+    <history-entry file="OpswatTest - 2021.04.22 at 22h 02m 57s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 40m 16s.xml">
+    <history-entry file="OpswatTest - 2021.04.22 at 23h 08m 48s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 49m 42s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 00h 53m 20s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 52m 28s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 01h 02m 50s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 54m 07s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 01h 07m 53s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 54m 41s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 01h 13m 21s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 19h 58m 59s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 01h 13m 44s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpswatTest - 2021.04.22 at 20h 02m 57s.xml">
+    <history-entry file="OpswatTest - 2021.04.23 at 01h 14m 02s.xml">
       <configuration name="OpswatTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -404,26 +414,28 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Opswat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="176" column="42" lean-forward="true" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
+        <state relative-caret-position="-2856">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatusFamily.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -432,16 +444,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/key.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utility.java">
+    <entry file="file://$PROJECT_DIR$/src/OpswatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="923">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

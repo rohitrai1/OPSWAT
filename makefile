@@ -3,5 +3,7 @@ compile:
 run:
 	java -cp .:dependencies/json-20210307.jar:dependencies/junit-jupiterD-api-5.0.0-M4.jar Opswat $(ARGS)
 
+run_tests:
+	java -cp .:dependencies/json-20210307.jar:dependencies/junit-jupiterD-api-5.0.0-M4.jar  OpswatTest	
 clean:
 	rm -rf *.class
