@@ -17,7 +17,7 @@ I have added JUnit tests for each request, however, additional jar is needed to 
 The results of the tests are shown below,
 
 Test Result:
-![Can't display screenshot](https://github.com/rohitrai1/OPSWAT/blob/master/screenshots/test_results.png "Test Coverage?")
+![Can't display screenshot](https://github.com/rohitrai1/OPSWAT/blob/master/screenshots/test_result.png "Test Coverage?")
 
 Test Coverage:
 ![Can't display screenshot](https://github.com/rohitrai1/OPSWAT/blob/master/screenshots/test_coverage.png "Test Coverage?")
